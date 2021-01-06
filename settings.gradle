@@ -1,4 +1,4 @@
-rootProject.name = 'rest-spring-boot-hexagonal-arch-users'
+rootProject.name = 'rest-spring-boot-multi-project-hexagonal-architecture'
 
 include 'domain'
 include 'infrastructure'

@@ -1,6 +1,8 @@
 # rest-spring-boot-hexagonal-architecture
 
-This project is to expose my interpretation of the hexagonal architecture, under spring-boot framework.
+This project is to expose my interpretation of the hexagonal architecture, under spring-boot framework using gradle multi-project.
+
+This approach seems a little more complex, but it has some advantages, as be able to limit the dependency packages per module. What I can see that this could be useful is on the case of having a monolith. On micro-services, as it is expected that the domain should be under a boundary context, this should not be a problem to have in a single project.
 
 The diagram of the hexagonal architecture relies on the following:
 
